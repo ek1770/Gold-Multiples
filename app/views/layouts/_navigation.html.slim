@@ -1,14 +1,154 @@
-= link_to "Txn Multiples", root_path, :class => 'brand'
-ul.nav
-  - if user_signed_in?
-    li
-      = link_to 'Logout', destroy_user_session_path, :method=>'delete'
-  - else
-    li
-      = link_to 'Login', new_user_session_path
-  - if user_signed_in?
-    li
-      = link_to 'Edit account', edit_user_registration_path
-  - else
-    li
-      = link_to 'Sign up', new_user_registration_path
+.navbar.navbar-inverse
+  .navbar-inner
+    .container-fluid
+      a.brand href="#"
+        small
+          i.icon-eye-open
+          = link_to "Txn Multiples", root_path, :class => 'brand'
+      /! /.brand
+      - if user_signed_in?
+      ul.nav.ace-nav.pull-right
+        li.grey
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            i.icon-tasks
+            span.badge.badge-grey 4
+          ul.pull-right.dropdown-navbar.dropdown-menu.dropdown-caret.dropdown-closer
+            li.nav-header
+              i.icon-ok
+              | 4 Projects to complete
+            li
+              a href="#"
+                .clearfix
+                  span.pull-left Project Perseus
+                  span.pull-right 8 Comps
+                / .progress.progress-mini
+                /   .bar style="width:65%"
+            li
+              a href="#"
+                .clearfix
+                  span.pull-left Project Titan
+                  span.pull-right 12 Comps
+                / .progress.progress-mini.progress-danger
+                /   .bar style="width:35%"
+            li
+              a href="#"
+                .clearfix
+                  span.pull-left Project Firefly
+                  span.pull-right 7 Comps
+                / .progress.progress-mini.progress-warning
+                /   .bar style="width:15%"
+            li
+              a href="#"
+                .clearfix
+                  span.pull-left Project Mandrill
+                  span.pull-right 18 Comps
+                / .progress.progress-mini.progress-success.progress-striped.active
+                /   .bar style="width:90%"
+            li
+              a href="#"
+                | See all projects
+                i.icon-arrow-right
+        li.green
+          a.dropdown-toggle data-toggle="dropdown" href="#"
+            i.icon-bell-alt.icon-only.icon-animated-bell
+            span.badge.badge-success 8
+          ul.pull-right.dropdown-navbar.navbar.dropdown-menu.dropdown-caret.dropdown-closer
+            li.nav-header
+              i.icon-warning-sign
+              | 6 Notifications
+            li
+              a href="#"
+                .clearfix
+                  span.pull-left
+                    i.btn.btn-mini.no-hover.icon-comment
+                    | New Comments
+                  span.pull-right.badge.badge-info +12
+            li
+              a href="#"
+                i.btn.btn-mini.btn-primary.icon-user
+                | Ben added you to Firefly
+            li
+              a href="#"
+                i.btn.btn-mini.btn-primary.icon-user
+                | John added you to Perseus
+            li
+              a href="#"
+                i.btn.btn-mini.btn-primary.icon-user
+                | Joe added you to Titan
+            li
+              a href="#"
+                | See all notifications
+                i.icon-arrow-right
+
+        li.light-blue.user-profile
+          a.user-menu.dropdown-toggle data-toggle="dropdown" href="#"
+            img.nav-user-photo alt="Jason's Photo" src="http://www.artandesignews.com/wp-content/uploads/2013/01/optical-illusion-profile-picture.jpg"
+            span#user_info
+              small Welcome,
+              | #{@user.name}
+            i.icon-caret-down
+          ul#user_menu.pull-right.dropdown-menu.dropdown-yellow.dropdown-caret.dropdown-closer
+            li
+              a href="#"
+                i.icon-user
+                | Profile
+            li
+              = link_to 'Edit account', edit_user_registration_path
+            li.divider
+            li
+              = link_to 'Logout', destroy_user_session_path, :method=>'delete'
+      - else
+        ul
+      /! /.ace-nav
+    /! /.container-fluid
+  / /.navbar
+
+
+
+
+
+
+
+
+/ = link_to "Txn Multiples", root_path, :class => 'brand'
+/ ul.nav
+/   - if user_signed_in?
+/     li
+/       = link_to 'Logout', destroy_user_session_path, :method=>'delete'
+/   - else
+/     li
+/       = link_to 'Login', new_user_session_path
+/   - if user_signed_in?
+/     li
+/       = link_to 'Edit account', edit_user_registration_path
+/   - else
+/     li
+/       = link_to 'Sign up', new_user_registration_path
+
+/   ul.nav.ace-nav.pull-right
+/     li.light-blue.user-profile
+/       - if user_signed_in?
+/         a.pull-right.user-menu.dropdown-toggle data-toggle="dropdown" href="#"
+/           img.nav-user-photo alt="Jason's Photo" src="http://www.artandesignews.com/wp-content/uploads/2013/01/optical-illusion-profile-picture.jpg"
+/           span#user_info
+/             small Welcome,
+/             | David
+/           i.icon-caret-down
+/       - else
+/         li
+/       ul#user_menu.pull-right.dropdown-menu.dropdown-yellow.dropdown-caret.dropdown-closer
+/         li
+/           a href="#"
+/             i.icon-cog
+/             | Settings
+/         li
+/           a href="#"
+/             i.icon-user
+/             | Profile
+/         li.divider
+/         li
+/           a href="#"
+/             i.icon-off
+/             | Logout
+  /! /.ace-nav
+

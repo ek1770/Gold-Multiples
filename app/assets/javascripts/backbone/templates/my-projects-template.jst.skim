@@ -1,0 +1,68 @@
+#main-content.clearfix
+  #page-content.clearfix
+    .position-relative
+      .btn.btn-primary.new-project-command 
+        i.icon-plus   New Project
+
+#main-content.clearfix
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Project Perseus
+        small
+          i.icon-double-angle-right
+          a href="#" Steve Smith
+          | , 
+          a href="#" David Ford
+          | ,  
+          a href="#" Eric Stout 
+          |  &amp; 
+          a href="#" Brandon Riley
+          |  
+        .pull-right.inline
+          .btn.btn-small.btn-primary.project-detail-command.a href="#" View
+
+
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Project Mandrill
+        small
+          i.icon-double-angle-right
+          a href="#" Ben Hart
+          | , 
+          a href="#" Rob Bandy
+          | ,  
+          a href="#" Chris McGuire
+          | ,  
+          a href="#" Kevin Wales
+          |  &amp; 
+          a href="#" Leslie Summers
+          |  
+        .pull-right.inline
+          .btn.btn-small.btn-primary.project-detail-command.a href="#" View 
+    
+
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Project Spacecraft
+        small
+          i.icon-double-angle-right
+          a href="#" Rob Lett
+          | , 
+          a href="#" John Doe
+          | ,  
+          a href="#" Brandon Spiker
+          |  
+        .pull-right.inline
+          .btn.btn-small.btn-primary.project-detail-command.a href="#" View 
+
+
+
+
+
+  / scroll to top of page button
+  br
+  a#btn-scroll-up.btn.btn-small.btn-inverse.a href="#myprojects"
+    i.icon-double-angle-up.icon-only.bigger-110

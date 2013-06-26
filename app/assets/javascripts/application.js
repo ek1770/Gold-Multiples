@@ -13,4 +13,16 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap
+//= require underscore
+//= require backbone
+
+//= require backbone_rails_sync
+//= require backbone_datalink
+
+//= require_tree ./backbone/views/txn-classes
+
+//= require backbone/txn_multiples
+
+
 //= require_tree .
+

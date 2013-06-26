@@ -1,0 +1,370 @@
+#main-content.clearfix
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | New Project
+        small
+          i.icon-double-angle-right
+          | In Four Easy Steps
+    /! /.page-header
+    .row-fluid
+      /! PAGE CONTENT BEGINS HERE
+      .row-fluid
+        .span12
+          .widget-box
+            .widget-header.widget-header-blue.widget-header-flat.wi1dget-header-large
+              h4.lighter Follow the steps to add a new project!
+              .widget-toolbar
+                label 7th project
+            .widget-body
+              .widget-main
+                .row-fluid
+                  #fuelux-wizard.row-fluid.hidden
+                    ul.wizard-steps
+                      li.active data-target="#step1"
+                        span.step 1
+                        span.title Project Information
+                      li data-target="#step2"
+                        span.step 2
+                        span.title Team Members
+                      li data-target="#step3"
+                        span.step 3
+                        span.title Add Comps
+                      li data-target="#step4"
+                        span.step 4
+                        span.title Completed!
+                  hr/
+                  .step-content.row-fluid.position-relative
+                    #step1.step-pane.active
+                      h3.lighter.block.green Enter the following new project information
+                      form#sample-form.form-horizontal
+                        .control-group
+                          label.control-label for="inputProjectName" New project name
+                          .controls
+                            span.span6.input-icon.input-icon-right
+                              input#form-field-1 placeholder="Project Perseus" type="text"
+                        .hr.hr-dotted
+                        .control-group
+                          label.control-label for="inputSector" Sector
+                          .controls
+                            span.span6
+                              select#form-field-select-1
+                                option.value=""
+                                option.value="Clean Energy Technology"
+                                option.value="Construction & Real Estate"
+                                option.value="Consumer Products"
+                                option.value="Energy & Utilities"
+                                option.value="Financial"
+                                option.value="Healthcare"
+                                option.value="Hospitality & Leisure"
+                                option.value="Internet"
+                                option.value="Manufacturing & Industrial"
+                                option.value="Media"
+                                option.value="Retail"
+                                option.value="Services"
+                                option.value="Social Services & Organizations"
+                                option.value="Technology"
+                                option.value="Transportation, Warehousing & Wholesale Distribution"
+
+                        .control-group
+                          label.control-label for="inputSubsector" Sub-sector
+                          .controls
+                            span.span6
+                              select#form-field-select-1
+                                option.value=""
+                                option.value="Biotechnology"
+                                option.value="Communications, Networking & Storage Technology"
+                                option.value="Computer Pheripherals"
+                                option.value="Computer Systems"
+                                option.value="Computers"
+                                option.value="Laser Technology"
+                                option.value="Mobile Technology"
+                                option.value="Nanotechnology"
+                                option.value="Power Supplies"
+                                option.value="Robotics"
+                                option.value="Satellites"
+                                option.value="Scientific Instruments, Sensors & Components"
+                                option.value="Security Technology"
+                                option.value="Semiconductors"
+                                option.value="Software"
+
+
+
+                    #step2.step-pane
+                      h3.lighter.block.green Enter the team members for this project
+                      form#sample-form.form-horizontal
+                        .control-group
+                          label.control-label for="inputTeamMembers" Team Members
+                          .controls
+                            span.span6.input-icon.input-icon-right
+                              input#form-field-1.span12 placeholder="..." type="text"
+
+                        .alert.alert-warning
+                          button.close data-dismiss="alert" type="button"
+                            i.icon-remove
+                          | You don't have to add any team members, but this software 
+                          | is more rewarding if you do!
+                          br/
+
+                    #step3.step-pane
+                      h3.lighter.block.green Select your precedent transaction comparables
+                      form#sample-form.form-horizontal
+                        .control-group
+                      
+
+                      h4.blue.lighter Based on your selections, these are the suggested comps
+                      .row-fluid
+                        .span12
+                          table#table_bug_report.table.table-striped.table-bordered.table-hover
+                            thead
+                              tr
+                                th.center
+                                th Date
+                                th Acquirer
+                                th.hidden-480 Target
+                                th.hidden-phone Equity Value
+                                th.hidden-480 Enterprise Value
+                                th % Acquired 
+                                th Cash/Stock
+                                th LTM Revenue
+                                th LTM EBITDA
+                                th LTM EBIT
+                                th P/E
+                                th Unaffected Premium
+                                th 
+                                  i.icon-time.hidden-phone
+                                  | Status
+                                th
+                            tbody
+                              tr
+                                td.center
+                                  label
+                                    input type="checkbox"
+                                    span.lbl
+                                td 09/01/2012
+                                td 
+                                  a href="#" Google
+                                td.hidden-480 
+                                  a href="#" Yahoo
+                                td.hidden-phone 400
+                                td 500
+                                td 100%
+                                td 80/20
+                                td 2.1x
+                                td 14.5x
+                                td 12.5x
+                                td 25.0x
+                                td 35%
+                                td.hidden-480
+                                  span.label.label-warning Announced
+                                td
+                                  .inline.position-relative
+                                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                                      i.icon-cog.icon-only.bigger-110
+                                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                                      li
+                                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                                          span.green
+                                            i.icon-edit
+                                      li
+                                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                                          span.blue
+                                            i.icon-flag
+                                      li
+                                        a.tooltip-error data-placement="left" data-rel="tooltip" title="Delete"
+                                          span.red
+                                            i.icon-trash
+                              tr
+                                td.center
+                                  label
+                                    input type="checkbox"
+                                    span.lbl
+                                td 09/01/2012
+                                td 
+                                  a href="#" Google
+                                td.hidden-480 
+                                  a href="#" Yahoo
+                                td.hidden-phone 400
+                                td 500
+                                td 100%
+                                td 80/20
+                                td 2.1x
+                                td 14.5x
+                                td 12.5x
+                                td 25.0x
+                                td 35%
+                                td.hidden-480
+                                  span.label.label-warning Announced
+                                td
+                                  .inline.position-relative
+                                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                                      i.icon-cog.icon-only.bigger-110
+                                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                                      li
+                                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                                          span.green
+                                            i.icon-edit
+                                      li
+                                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                                          span.blue
+                                            i.icon-flag
+                                      li
+                                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                                          span.red
+                                            i.icon-trash
+                              tr
+                                td.center
+                                  label
+                                    input type="checkbox"
+                                    span.lbl
+                                td 09/01/2012
+                                td 
+                                  a href="#" Google
+                                td.hidden-480 
+                                  a href="#" Yahoo
+                                td.hidden-phone 400
+                                td 500
+                                td 100%
+                                td 80/20
+                                td 2.1x
+                                td 14.5x
+                                td 12.5x
+                                td 25.0x
+                                td 35%
+                                td.hidden-480
+                                  span.label.label-warning Announced
+                                td
+                                  .inline.position-relative
+                                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                                      i.icon-cog.icon-only.bigger-110
+                                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                                      li
+                                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                                          span.green
+                                            i.icon-edit
+                                      li
+                                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                                          span.blue
+                                            i.icon-flag
+                                      li
+                                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                                          span.red
+                                            i.icon-trash
+                              tr
+                                td.center
+                                  label
+                                    input type="checkbox"
+                                    span.lbl
+                                td 09/01/2012
+                                td 
+                                  a href="#" Google
+                                td.hidden-480 
+                                  a href="#" Yahoo
+                                td.hidden-phone 400
+                                td 500
+                                td 100%
+                                td 80/20
+                                td 2.1x
+                                td 14.5x
+                                td 12.5x
+                                td 25.0x
+                                td 35%
+                                td.hidden-480
+                                  span.label.label-inverse.arrowed-in Not scrubbed
+                                td
+                                  .inline.position-relative
+                                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                                      i.icon-cog.icon-only.bigger-110
+                                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                                      li
+                                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                                          span.green
+                                            i.icon-edit
+                                      li
+                                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                                          span.blue
+                                            i.icon-flag
+                                      li
+                                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                                          span.red
+                                            i.icon-trash
+                              tr
+                                td.center
+                                  label
+                                    input type="checkbox"
+                                    span.lbl
+                                td 09/01/2012
+                                td 
+                                  a href="#" Google
+                                td.hidden-480 
+                                  a href="#" Yahoo
+                                td.hidden-phone 400
+                                td 500
+                                td 100%
+                                td 80/20
+                                td 2.1x
+                                td 14.5x
+                                td 12.5x
+                                td 25.0x
+                                td 35%
+                                td.hidden-480
+                                  span.label.label-success Closed
+                                td
+                                  .inline.position-relative
+                                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                                      i.icon-cog.icon-only.bigger-110
+                                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                                      li
+                                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                                          span.green
+                                            i.icon-edit
+                                      li
+                                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                                          span.blue
+                                            i.icon-flag
+                                      li
+                                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                                          span.red
+                                            i.icon-trash
+                        /! /span
+                      /! /row
+
+
+
+
+
+
+
+                    #step4.step-pane
+                      .center
+                        h3.green Congrats!
+                        h5 Your project has been created! Click finish to continue! 
+                        | This project will now appear in "My Projects" on the left menu.
+                  hr/
+                  .row-fluid.wizard-actions
+                    button.btn.btn-prev
+                      i.icon-arrow-left
+                      | Prev
+
+                    / add class to last next/finish button .finish-new-project-command  
+                    button.btn.btn-success.btn-next data-last="Finish "
+                      | Next
+                      i.icon-arrow-right.icon-on-right
+              /! /widget-main
+            /! /widget-body
+          
+
+
+
+
+
+
+
+
+
+
+
+  / scroll to top of page button
+  br
+  a#btn-scroll-up.btn.btn-small.btn-inverse
+    i.icon-double-angle-up.icon-only.bigger-110

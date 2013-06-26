@@ -1,0 +1,75 @@
+
+/! TREE CONTENT BEGINS HERE
+
+
+#main-content.clearfix
+  #page-content.clearfix
+    .page-header.position-relative  
+      .row-fluid
+        .widget-box.span6
+          .widget-header.header-color-blue2
+            h4.lighter.smaller Choose Sectors
+          .widget-body
+            .widget-main.padding-8
+              #tree1.tree
+
+
+
+        .widget-box.span6
+          .widget-header.header-color-blue2
+            h4.lighter.smaller Choose Deal Value Range ($mm)
+          .widget-body
+            .widget-main.padding-8
+              .control-group
+                label.control-label for="dealValueMin" Minimum 
+                .controls
+                  span.span6
+                    input#form-field-1.span4 placeholder="..." type="text" 
+                label.control-label for="dealValueMax" Maximum
+                .controls
+                  span.span6
+                    input#form-field-1.span4 placeholder="..." type="text" 
+
+        .widget-box.span6
+          .widget-header.header-color-blue2
+            h4.lighter.smaller Choose Date Range
+          .widget-body
+            .widget-main.padding-8
+
+              .row-fluid
+                label for="id-date-range-picker-1"
+              .control-group
+                .input-prepend
+                  span.add-on
+                    i.icon-calendar
+                  input#id-date-range-picker-1.span11 name="date-range-picker" type="text"
+
+
+
+
+        .position-relative
+          .pull-right.inline
+            br
+            .btn.btn-primary.search-results-command
+              i.icon-search   Search
+
+
+                   
+
+  / .widget-box.span6
+  /   .widget-header.header-color-green2
+  /     h4.lighter.smaller Browse Files
+  /   .widget-body
+  /     .widget-main.padding-8
+  /       #tree2.tree
+
+
+
+
+
+  / scroll to top of page button
+  br
+  a#btn-scroll-up.btn.btn-small.btn-inverse.a href="#transactionsearch"
+    i.icon-double-angle-up.icon-only.bigger-110
+
+

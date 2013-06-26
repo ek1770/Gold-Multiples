@@ -1,0 +1,285 @@
+#main-content.clearfix
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Add a transaction
+        .pull-right.inline
+          .btn.btn-small.btn-primary.a href="#" Save
+
+    /! /.page-header
+    .row-fluid
+      /! PAGE CONTENT BEGINS HERE
+      .row-fluid
+        .span12
+          .widget-box
+            .widget-header.widget-header-blue.widget-header-flat.wi1dget-header-large
+              h4.lighter Transaction Information
+              .widget-toolbar
+                a data-action="collapse" href="#"
+                  i.icon-chevron-up
+                a data-action="close" href="#"
+                  i.icon-remove
+
+            .widget-body
+              .widget-main
+                .row-fluid
+                  form#sample-form.form-horizontal
+                    .control-group
+                      label.control-label for="inputAnnouncementDate" Announcement Date
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="02/10/2013" type="text"
+                      label.control-label for="inputClosingDate" Closing Date
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="06/10/2013" type="text"
+                    .control-group
+                      label.control-label for="inputStatus" Status
+                      .controls
+                        span.span6
+                          select#form-field-select-1
+                            option.value=""
+                            option.value="Annouced"
+                            option.value="Closed"
+                            option.value="Fell apart"
+
+                    .control-group
+                      label.control-label for="inputAcquirerName" Acquirer
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="Google" type="text"
+                      label.control-label for="inputTargetName" Target
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="Google" type="text"
+                    .hr.hr-dotted
+                    .control-group
+                      label.control-label for="inputSector" Sector
+                      .controls
+                        span.span6
+                          select#form-field-select-1
+                            option.value=""
+                            option.value="Clean Energy Technology"
+                            option.value="Construction & Real Estate"
+                            option.value="Consumer Products"
+                            option.value="Energy & Utilities"
+                            option.value="Financial"
+                            option.value="Healthcare"
+                            option.value="Hospitality & Leisure"
+                            option.value="Internet"
+                            option.value="Manufacturing & Industrial"
+                            option.value="Media"
+                            option.value="Retail"
+                            option.value="Services"
+                            option.value="Social Services & Organizations"
+                            option.value="Technology"
+                            option.value="Transportation, Warehousing & Wholesale Distribution"
+
+                    .control-group
+                      label.control-label for="inputSubsector" Sub-sector
+                      .controls
+                        span.span6
+                          select#form-field-select-1
+                            option.value=""
+                            option.value="Biotechnology"
+                            option.value="Communications, Networking & Storage Technology"
+                            option.value="Computer Pheripherals"
+                            option.value="Computer Systems"
+                            option.value="Computers"
+                            option.value="Laser Technology"
+                            option.value="Mobile Technology"
+                            option.value="Nanotechnology"
+                            option.value="Power Supplies"
+                            option.value="Robotics"
+                            option.value="Satellites"
+                            option.value="Scientific Instruments, Sensors & Components"
+                            option.value="Security Technology"
+                            option.value="Semiconductors"
+                            option.value="Software"
+ 
+
+
+        /! /.page-header
+    .row-fluid
+      /! PAGE CONTENT BEGINS HERE
+      .row-fluid
+        .span12
+          .widget-box
+            .widget-header.widget-header-blue.widget-header-flat.wi1dget-header-large
+              h4.lighter Data ($mm)
+              .widget-toolbar
+                a data-action="collapse" href="#"
+                  i.icon-chevron-up
+                a data-action="close" href="#"
+                  i.icon-remove
+
+            .widget-body
+              .widget-main
+                .row-fluid
+                  form#sample-form.form-horizontal
+                    .control-group
+                      label.control-label for="inputDealValue" Deal Value
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="600" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-1 type="file"
+                    .control-group
+                      label.control-label for="inputNetDebt" Net Debt
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="400" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-2 type="file"
+                    .control-group
+                      label.control-label for="inputEquityValue" Equity Value
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="200" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-3 multiple="" type="file"
+                    .hr.hr-dotted
+
+                    .control-group
+                      label.control-label for="inputLTMRevenue" LTM Revenue
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="600" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-1 type="file"
+                    .control-group
+                      label.control-label for="inputLTMEBIT" LTM EBIT
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="400" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-2 type="file"
+                    .control-group
+                      label.control-label for="inputLTMEBITDA" LTM EBITDA
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="200" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-3 multiple="" type="file"
+                    .control-group
+                      label.control-label for="inputLTMEarnings" LTM Earnings
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="200" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-3 multiple="" type="file"
+                    .hr.hr-dotted
+
+                    .control-group
+                      label.control-label for="percentAcquired" Percent Acquired
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="600" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-1 type="file"
+                    .control-group
+                      label.control-label for="inputCashPaid" Cash Paid
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="400" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-2 type="file"
+                    .control-group
+                      label.control-label for="inputDilutedShares" Fully Diluted Shares
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="200" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-3 multiple="" type="file"
+                    .control-group
+                      label.control-label for="inputUnaffectedPremium" Unaffected Premium
+                      .controls
+                        span.span4.input-icon.input-icon-right
+                          input#form-field-1 placeholder="200" type="text"
+                      label.control-label for="backupFile" 
+                      input#id-input-file-3 multiple="" type="file"
+
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Output
+
+    /! /.page-header
+    .row-fluid
+      /! PAGE CONTENT BEGINS HERE
+      .row-fluid
+        .span12
+          table#table_bug_report.table.table-striped.table-bordered.table-hover
+            thead
+              tr
+                th.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                th Date
+                th Acquirer
+                th.hidden-480 Target
+                th.hidden-phone
+                  i.icon-time.hidden-phone
+                  | Equity Value
+                th.hidden-480 Enterprise Value
+                th % Acquired 
+                th Cash/ Stock
+                th LTM Revenue
+                th LTM EBITDA
+                th LTM EBIT
+                th P/E
+                th Unaffected Premium
+                th Status
+                th
+            tbody
+              tr
+                td.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                td 09/01/2012
+                td 
+                  a href="#" Google
+                td.hidden-480 
+                  a href="#" Yahoo
+                td.hidden-phone 400
+                td 500
+                td 100%
+                td 80/20
+                td 2.1x
+                td 14.5x
+                td 12.5x
+                td 25.0x
+                td 35%
+                td.hidden-480
+                  span.label.label-warning Announced
+                td
+                  .inline.position-relative
+                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                      i.icon-cog.icon-only.bigger-110
+                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                      li
+                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                          span.green
+                            i.icon-edit
+                      li
+                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                          span.blue
+                            i.icon-flag
+                      li
+                        a.tooltip-error data-placement="left" data-rel="tooltip" title="Delete"
+                          span.red
+                            i.icon-trash
+
+
+
+
+
+
+
+
+  / scroll to top of page button
+  br
+  a#btn-scroll-up.btn.btn-small.btn-inverse href="#addtransaction"
+    i.icon-double-angle-up.icon-only.bigger-110

@@ -1,0 +1,129 @@
+body.login-layout
+  #main-container.container-fluid
+    #main-content
+      .row-fluid
+        .span12
+          .login-container
+            .row-fluid
+              .center
+                h1
+                  i.icon-leaf.green
+                  span.red Ace
+                  span.white Application
+                h4.blue &copy; Company Name
+            .space-6
+            .row-fluid
+              .position-relative
+                #login-box.visible.widget-box.no-border
+                  .widget-body
+                    .widget-main
+                      h4.header.blue.lighter.bigger
+                        i.icon-coffee.green
+                        | Please Enter Your Information
+                      .space-6
+                      form
+                        fieldset
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Username" type="text"
+                              i.icon-user
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Password" type="password"
+                              i.icon-lock
+                          .space
+                          .row-fluid
+                            label.span8
+                              input type="checkbox"
+                              span.lbl Remember Me
+                            button.span4.btn.btn-small.btn-primary onclick="return false;"
+                              i.icon-key
+                              | Login
+                    /! /widget-main
+                    .toolbar.clearfix
+                      div
+                        a.forgot-password-link href="#" onclick="show_box('forgot-box'); return false;"
+                          i.icon-arrow-left
+                          | I forgot my password
+                      div
+                        a.user-signup-link href="#" onclick="show_box('signup-box'); return false;"
+                          | I want to register
+                          i.icon-arrow-right
+                  /! /widget-body
+                /! /login-box
+                #forgot-box.widget-box.no-border
+                  .widget-body
+                    .widget-main
+                      h4.header.red.lighter.bigger
+                        i.icon-key
+                        | Retrieve Password
+                      .space-6
+                      p
+                        | Enter your email and to receive instructions
+                      form
+                        fieldset
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Email" type="email"
+                              i.icon-envelope
+                          .row-fluid
+                            button.span5.offset7.btn.btn-small.btn-danger onclick="return false;"
+                              i.icon-lightbulb
+                              | Send Me!
+                    /! /widget-main
+                    .toolbar.center
+                      a.back-to-login-link href="#" onclick="show_box('login-box'); return false;"
+                        | Back to login
+                        i.icon-arrow-right
+                  /! /widget-body
+                /! /forgot-box
+                #signup-box.widget-box.no-border
+                  .widget-body
+                    .widget-main
+                      h4.header.green.lighter.bigger
+                        i.icon-group.blue
+                        | New User Registration
+                      .space-6
+                      p
+                        | Enter your details to begin:
+                      form
+                        fieldset
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Email" type="email"
+                              i.icon-envelope
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Username" type="text"
+                              i.icon-user
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Password" type="password"
+                              i.icon-lock
+                          label
+                            span.block.input-icon.input-icon-right
+                              input.span12 placeholder="Repeat password" type="password"
+                              i.icon-retweet
+                          label
+                            input type="checkbox"
+                            span.lbl
+                              | I accept the
+                              a href="#"
+                          .space-24
+                          .row-fluid
+                            button.span6.btn.btn-small type="reset"
+                              i.icon-refresh
+                              | Reset
+                            button.span6.btn.btn-small.btn-success onclick="return false;"
+                              | Register
+                              i.icon-arrow-right.icon-on-right
+                    .toolbar.center
+                      a.back-to-login-link href="#" onclick="show_box('login-box'); return false;"
+                        i.icon-arrow-left
+                        | Back to login
+                  /! /widget-body
+                /! /signup-box
+              /! /position-relative
+        /! /span
+      /! /row
+  /! /.fluid-container

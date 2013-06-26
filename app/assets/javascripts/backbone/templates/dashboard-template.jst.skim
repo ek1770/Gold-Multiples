@@ -1,0 +1,313 @@
+/ Dashboard view
+
+#main-content.clearfix
+  #page-content.clearfix
+    .row-fluid
+      .span12
+        .row-fluid
+          .step-content.row-fluid.position-relative
+              form#sample-form.form-horizontal
+                .alert.alert-info
+                  button.close data-dismiss="alert" type="button"
+                    i.icon-remove
+                  | Customize your Dashboard to display what you prefer!  
+
+#main-content.clearfix
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Recent Transactions Viewed
+        small
+          i.icon-double-angle-right
+          | Edit &amp; Expand As Needed
+    /! /.page-header
+    .row-fluid
+      /! PAGE CONTENT BEGINS HERE
+      .row-fluid
+        .span12
+          table#table_bug_report.table.table-striped.table-bordered.table-hover
+            thead
+              tr
+                th.center
+                th Date
+                th Acquirer
+                th.hidden-480 Target
+                th.hidden-phone Equity Value
+                th.hidden-480 Enterprise Value
+                th % Acquired 
+                th Cash/ Stock
+                th LTM Revenue
+                th LTM EBITDA
+                th LTM EBIT
+                th P/E
+                th Unaffected Premium
+                th 
+                  i.icon-time.hidden-phone
+                  | Status
+                th
+                
+            / Insert rows for transaction model 
+            tbody.insert-table-information
+
+              
+                
+        /! /span
+      /! /row
+
+
+
+
+
+  / sector txns table starts here
+
+  #page-content.clearfix
+    .page-header.position-relative
+      h1
+        | Latest announced
+        small
+          i.icon-double-angle-right
+          | Technology &amp; Media
+    /! /.page-header
+    .row-fluid
+      /! PAGE CONTENT BEGINS HERE
+      .row-fluid
+        .span12
+          table#table_bug_report.table.table-striped.table-bordered.table-hover
+            thead
+              tr
+                th.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                th Date
+                th Acquirer
+                th.hidden-480 Target
+                th.hidden-phone
+                  i.icon-time.hidden-phone
+                  | Equity Value
+                th.hidden-480 Enterprise Value
+                th % Acquired 
+                th Cash/ Stock
+                th LTM Revenue
+                th LTM EBITDA
+                th LTM EBIT
+                th P/E
+                th Unaffected Premium
+                th Status
+                th
+            tbody
+              tr
+                td.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                td 09/01/2012
+                td 
+                  a href="#" Google
+                td.hidden-480 
+                  a href="#" Yahoo
+                td.hidden-phone 400
+                td 500
+                td 100%
+                td 80/20
+                td 2.1x
+                td 14.5x
+                td 12.5x
+                td 25.0x
+                td 35%
+                td.hidden-480
+                  span.label.label-warning Announced
+                td
+                  .inline.position-relative
+                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                      i.icon-cog.icon-only.bigger-110
+                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                      li
+                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                          span.green
+                            i.icon-edit
+                      li
+                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                          span.blue
+                            i.icon-flag
+                      li
+                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                          span.red
+                            i.icon-trash
+              tr
+                td.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                td 09/01/2012
+                td 
+                  a href="#" Google
+                td.hidden-480 
+                  a href="#" Yahoo
+                td.hidden-phone 400
+                td 500
+                td 100%
+                td 80/20
+                td 2.1x
+                td 14.5x
+                td 12.5x
+                td 25.0x
+                td 35%
+                td.hidden-480
+                  span.label.label-warning Announced
+                td
+                  .inline.position-relative
+                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                      i.icon-cog.icon-only.bigger-110
+                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                      li
+                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                          span.green
+                            i.icon-edit
+                      li
+                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                          span.blue
+                            i.icon-flag
+                      li
+                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                          span.red
+                            i.icon-trash
+              tr
+                td.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                td 09/01/2012
+                td 
+                  a href="#" Google
+                td.hidden-480 
+                  a href="#" Yahoo
+                td.hidden-phone 400
+                td 500
+                td 100%
+                td 80/20
+                td 2.1x
+                td 14.5x
+                td 12.5x
+                td 25.0x
+                td 35%
+                td.hidden-480
+                  span.label.label-warning Announced
+                td
+                  .inline.position-relative
+                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                      i.icon-cog.icon-only.bigger-110
+                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                      li
+                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                          span.green
+                            i.icon-edit
+                      li
+                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                          span.blue
+                            i.icon-flag
+                      li
+                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                          span.red
+                            i.icon-trash
+              tr
+                td.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                td 09/01/2012
+                td 
+                  a href="#" Google
+                td.hidden-480 
+                  a href="#" Yahoo
+                td.hidden-phone 400
+                td 500
+                td 100%
+                td 80/20
+                td 2.1x
+                td 14.5x
+                td 12.5x
+                td 25.0x
+                td 35%
+                td.hidden-480
+                  span.label.label-inverse.arrowed-in Not scrubbed
+                td
+                  .inline.position-relative
+                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                      i.icon-cog.icon-only.bigger-110
+                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                      li
+                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                          span.green
+                            i.icon-edit
+                      li
+                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                          span.blue
+                            i.icon-flag
+                      li
+                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                          span.red
+                            i.icon-trash
+              tr
+                td.center
+                  label
+                    input type="checkbox"
+                    span.lbl
+                td 09/01/2012
+                td 
+                  a href="#" Google
+                td.hidden-480 
+                  a href="#" Yahoo
+                td.hidden-phone 400
+                td 500
+                td 100%
+                td 80/20
+                td 2.1x
+                td 14.5x
+                td 12.5x
+                td 25.0x
+                td 35%
+                td.hidden-480
+                  span.label.label-success Closed
+                td
+                  .inline.position-relative
+                    button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+                      i.icon-cog.icon-only.bigger-110
+                    ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+                      li
+                        a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                          span.green
+                            i.icon-edit
+                      li
+                        a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                          span.blue
+                            i.icon-flag
+                      li
+                        a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                          span.red
+                            i.icon-trash
+        /! /span
+      /! /row
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  / scroll to top of page button
+  br
+  a#btn-scroll-up.btn.btn-small.btn-inverse
+    i.icon-double-angle-up.icon-only.bigger-110
+
+
