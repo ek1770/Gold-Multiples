@@ -24,9 +24,12 @@ gem "better_errors", ">= 0.7.2", :group => :development
 gem "binding_of_caller", ">= 0.7.1", :group => :development, :platforms => [:mri_19, :rbx]
 gem "font-awesome-rails"
 
+gem 'activeadmin'
 gem "meta_search", ">= 1.1.0.pre"
 
 gem "rails-backbone"
 gem "slim", "1.2.2"
 gem "skim", "0.8.6"
 gem "temple", "0.4.0"
+
+
