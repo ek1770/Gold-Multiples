@@ -21,14 +21,27 @@
           .widget-body
             .widget-main.padding-8
               .control-group
-                label.control-label for="dealValueMin" Minimum 
+                label.control-label for="dealValueMin"
                 .controls
                   span.span6
-                    input#form-field-1.span4 placeholder="..." type="text" 
-                label.control-label for="dealValueMax" Maximum
+                    | From 
+                    input#form-field-1.span4 placeholder="200" type="text" 
+
+
+                label.control-label for="dealValueMax"
                 .controls
                   span.span6
-                    input#form-field-1.span4 placeholder="..." type="text" 
+                    | To 
+                    input#form-field-1.span4 placeholder="400" type="text"
+
+
+                label for="form-field-select-2" Or choose a deal size from the list below:
+                select#form-field-select-2 multiple="multiple" 
+                  option.value="Any"
+                  option.value="< $25 Million - $100 Million (USD)"
+                  option.value="$25 Million - $100 Million (USD)"
+                  option.value="$100 Million - $500 Million (USD)"
+                  option.value="> $500 Million (USD)"
 
         .widget-box.span6
           .widget-header.header-color-blue2

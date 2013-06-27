@@ -122,22 +122,22 @@
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="600" type="text"
-                      label.control-label for="backupFile" 
-                      input#id-input-file-1 type="file"
+                      label.control-label for="backupFile"
+                        input#id-input-file-1 type="file"
                     .control-group
                       label.control-label for="inputNetDebt" Net Debt
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="400" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-2 type="file"
+                        input#id-input-file-2 type="file"
                     .control-group
                       label.control-label for="inputEquityValue" Equity Value
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-3 multiple="" type="file"
+                        input#id-input-file-3 multiple="" type="file"
                     .hr.hr-dotted
 
                     .control-group
@@ -146,28 +146,28 @@
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="600" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-1 type="file"
+                        input#id-input-file-1 type="file"
                     .control-group
                       label.control-label for="inputLTMEBIT" LTM EBIT
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="400" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-2 type="file"
+                        input#id-input-file-2 type="file"
                     .control-group
                       label.control-label for="inputLTMEBITDA" LTM EBITDA
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-3 multiple="" type="file"
+                        input#id-input-file-1 multiple="" type="file"
                     .control-group
                       label.control-label for="inputLTMEarnings" LTM Earnings
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-3 multiple="" type="file"
+                        input#id-input-file-1 multiple="" type="file"
                     .hr.hr-dotted
 
                     .control-group
@@ -176,28 +176,28 @@
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="600" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-1 type="file"
+                        input#id-input-file-1 type="file"
                     .control-group
                       label.control-label for="inputCashPaid" Cash Paid
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="400" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-2 type="file"
+                        input#id-input-file-2 type="file"
                     .control-group
                       label.control-label for="inputDilutedShares" Fully Diluted Shares
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-3 multiple="" type="file"
+                        input#id-input-file-1 multiple="" type="file"
                     .control-group
                       label.control-label for="inputUnaffectedPremium" Unaffected Premium
                       .controls
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
-                      input#id-input-file-3 multiple="" type="file"
+                        input#id-input-file-1 multiple="" type="file"
 
   #page-content.clearfix
     .page-header.position-relative

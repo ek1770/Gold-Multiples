@@ -33,20 +33,20 @@ var tree_data = {
 	'consumer-products' : {name: 'Consumer Products', type: 'folder'}	,
 	'energy-utilities' : {name: 'Energy Utilities', type: 'folder'}	,
 	'financial' : {name: 'Financial', type: 'folder'}	,
-	'healthcare' : {name: 'Healthcare', type: 'item'}	,
-	'hospitality-leisure' : {name: 'Hospitality & Leisure', type: 'item'}	,
-	'internet' : {name: 'Internet', type: 'item'},
-	'manufacturing-industrial' : {name: 'Manufacturing & Industrial', type: 'item'},
-	'media' : {name: 'Media', type: 'item'},
-	'retail' : {name: 'Retail', type: 'item'},
-	'services' : {name: 'Services', type: 'item'},
-	'social-services-organizations' : {name: 'Social Services & Organizatiots', type: 'item'},
-	'technology' : {name: 'Technology', type: 'item'},
-	'transportation-warehousing-wholesale-distribution' : {name: 'Transportation Warehousing Wholesale Distribution', type: 'itTm'},
+	'healthcare' : {name: 'Healthcare', type: 'folder'}	,
+	'hospitality-leisure' : {name: 'Hospitality & Leisure', type: 'folder'}	,
+	'internet' : {name: 'Internet', type: 'folder'},
+	'manufacturing-industrial' : {name: 'Manufacturing & Industrial', type: 'folder'},
+	'media' : {name: 'Media', type: 'folder'},
+	'retail' : {name: 'Retail', type: 'folder'},
+	'services' : {name: 'Services', type: 'folder'},
+	'social-services-organizations' : {name: 'Social Services & Organizatiots', type: 'folder'},
+	'technology' : {name: 'Technology', type: 'folder'},
+	'transportation-warehousing-wholesale-distribution' : {name: 'Transportation Warehousing Wholesale Distribution', type: 'folder'},
 }
 tree_data['clean-energy-technology']['additionalParameters'] = {
 	'children' : {
-		'batteries-energy-storage' : {name: 'Batteries & Energy Storage', type: 'item'},
+		'batteries-energy-storage' : {name: 'Batteries & Energy Storage', type: 'folder'},
 		'biofuels' : {name: 'Biofuels', type: 'item'},
 		'energy-conservation' : {name: 'Energy Conservation', type: 'item'},
 		'geothermal-power' : {name: 'Geothermal Power', type: 'item'},
@@ -57,6 +57,15 @@ tree_data['clean-energy-technology']['additionalParameters'] = {
 		'solar-energy' : {name: 'Solar Energy', type: 'item'},
 		'wind-energy' : {name: 'Wind Energy', type: 'item'},
 
+	}
+}
+tree_data['clean-energy-technology']['additionalParameters']['children']['batteries-energy-storage']['additionalParameters'] = {
+	'children' : {
+		'advanced-batteries' : {name: 'Advanced Batteries', type: 'item'},
+		'advanced-lead-acid-batteries' : {name: 'Advanced Lead Acid Batteries', type: 'item'},
+		'fuel-cells' : {name: 'Fuel Cells', type: 'item'},
+		'lithium-ion-batteries' : {name: 'Lithium-Ion Batteries', type: 'item'},
+		'pumped-heat-electricity-storage' : {name: 'Pumped Heat Electricity Storage', type: 'item'},
 	}
 }
 tree_data['construction-real-estate']['additionalParameters'] = {

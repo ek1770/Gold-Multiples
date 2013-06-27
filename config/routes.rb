@@ -8,6 +8,11 @@ TxnMultiples::Application.routes.draw do
     root :to => 'home#index'
   end
   root :to => redirect("/users/login")
+
   resources :users
+
+  # generates the routes that point to
+  # the transactions controller
+  resources :transactions
 end
 
