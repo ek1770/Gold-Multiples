@@ -26,8 +26,9 @@ class ProjectsController < ApplicationController
 
   def update
     @project = Project.find(params[:id])
-    @project[:acquirer] = params[:project][:acquirer]
-    @project[:target] = params[:project][:target]
+    @project[:name] = params[:project][:name]
+    @project[:sector] = params[:project][:sector]
+    @project[:sub_sector] = params[:project][:sub_sector]
     @project[:date_created] = params[:date_created][:]
     if @project.save
       render :json => @project
