@@ -10,11 +10,14 @@ window.MyProjectsView = Backbone.View.extend(
   render: ->
     @$el.html myProjectsTemplate()
 
+    new SingleProjectView
+    new SingleProjectView
+    new SingleProjectView
+
+
   events:
     "click .new-project-command": "newProjectCommand"
     "click .project-detail-command": "projectDetailCommand"
-    # "click .transaction-search-command": "transactionSearchCommand"
-    # "click .add-transaction-command": "addTransactionCommand"
 
   newProjectCommand: ->
     $(".my-projects-view").html ""

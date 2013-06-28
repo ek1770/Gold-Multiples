@@ -51,7 +51,7 @@ tree_data['clean-energy-technology']['additionalParameters'] = {
 		'energy-conservation' : {name: 'Energy Conservation', type: 'item'},
 		'geothermal-power' : {name: 'Geothermal Power', type: 'item'},
 		'green-transportation' : {name: 'Green Transportation', type: 'item'},
-		'hydrogen-power' : {name: 'hydrogen-power', type: 'item'},
+		'hydrogen-power' : {name: 'Hydrogen Power', type: 'item'},
 		'hydropower-energy' : {name: 'Hydropower Energy', type: 'item'},
 		'smart-grid' : {name: 'Smart Grid', type: 'item'},
 		'solar-energy' : {name: 'Solar Energy', type: 'item'},

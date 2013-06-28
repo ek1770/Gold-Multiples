@@ -15,24 +15,30 @@
             .widget-header.widget-header-blue.widget-header-flat.wi1dget-header-large
               h4.lighter Transaction Information
               .widget-toolbar
-                a data-action="collapse" href="#"
+                a data-action="collapse" 
                   i.icon-chevron-up
-                a data-action="close" href="#"
-                  i.icon-remove
 
             .widget-body
               .widget-main
                 .row-fluid
                   form#sample-form.form-horizontal
                     .control-group
-                      label.control-label for="inputAnnouncementDate" Announcement Date
+                      label.control-label for="id-date-picker-1" Announcement Date
                       .controls
-                        span.span4.input-icon.input-icon-right
-                          input#form-field-1 placeholder="02/10/2013" type="text"
-                      label.control-label for="inputClosingDate" Closing Date
+                        span.span4.input-append.date
+                          input#id-date-picker-1.span10.date-picker data-date-format="mm-dd-yyyy" type="text"
+                          span.add-on
+                            i.icon-calendar
+                      label.control-label for="id-date-picker-1" Closing Date
                       .controls
-                        span.span4.input-icon.input-icon-right
-                          input#form-field-1 placeholder="06/10/2013" type="text"
+                        span.span4.input-append.date
+                          input#id-date-picker-1.span10.date-picker data-date-format="mm-dd-yyyy" type="text"
+                          span.add-on
+                            i.icon-calendar
+
+
+
+
                     .control-group
                       label.control-label for="inputStatus" Status
                       .controls
@@ -108,10 +114,9 @@
             .widget-header.widget-header-blue.widget-header-flat.wi1dget-header-large
               h4.lighter Data ($mm)
               .widget-toolbar
-                a data-action="collapse" href="#"
+                a data-action="collapse" 
                   i.icon-chevron-up
-                a data-action="close" href="#"
-                  i.icon-remove
+
 
             .widget-body
               .widget-main
@@ -137,7 +142,7 @@
                         span.span4.input-icon.input-icon-right
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
-                        input#id-input-file-3 multiple="" type="file"
+                        input#id-input-file-1 multiple="" type="file"
                     .hr.hr-dotted
 
                     .control-group
@@ -198,6 +203,23 @@
                           input#form-field-1 placeholder="200" type="text"
                       label.control-label for="backupFile" 
                         input#id-input-file-1 multiple="" type="file"
+                    .hr.hr-dotted
+
+                    .control-group
+                      label Or Add All Backups Here!
+                      .controls.br
+                      label.control-label for="backupFile" 
+                      br
+                      input#id-input-file-3 multiple="" type="file"
+
+
+  #page-content.clearfix
+    .position-relative
+        .pull-right.inline
+          .btn.btn-small.btn-primary.a href="#" Save
+
+
+
 
   #page-content.clearfix
     .page-header.position-relative

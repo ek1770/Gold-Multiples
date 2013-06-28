@@ -22,6 +22,10 @@ window.TransactionSearchView = Backbone.View.extend(
       'unselected-icon' : 'icon-remove'
     });
 
+    $(".date-picker").datepicker()
+
+    $("#id-date-range-picker-1").daterangepicker()
+
   render: ->
     @$el.html transactionSearchTemplate()
 

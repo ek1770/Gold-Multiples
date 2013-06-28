@@ -1,19 +1,19 @@
 #main-content.clearfix
   #page-content.clearfix
-    .page-header.position-relative 
+    .row-fluid
       .table-header
-        | Results sorted by date
+        | Search Results
       table#table_report.table.table-striped.table-bordered.table-hover
         thead
           tr
             th.center
             th Date
             th Acquirer
-            th.hidden-480 Target
-            th.hidden-phone Equity Value
-            th.hidden-480 Enterprise Value
+            th Target
+            th Equity Value
+            th Enterprise Value
             th % Acquired 
-            th Cash / Stock
+            th Cash/ Stock
             th LTM Revenue
             th LTM EBITDA
             th LTM EBIT
@@ -24,19 +24,80 @@
               | Status
             th
         tbody
+          
+
           tr
             td.center
               label
                 input type="checkbox"
                 span.lbl
-            td 05/19/2013 
-            td 
-              a href="#" Target
+            td 09/20/2012
             td.hidden-480 
-              a href="#" Best Buy
-            td.hidden-phone 1800
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
+            td
+              span.label.label-warning Announced
+            td.td-actions
+              .hidden-phone.visible-desktop.btn-group
+                button.btn.btn-mini.btn-success
+                  i.icon-ok.bigger-120
+                button.btn.btn-mini.btn-info
+                  i.icon-edit.bigger-120
+                button.btn.btn-mini.btn-danger
+                  i.icon-trash.bigger-120
+                button.btn.btn-mini.btn-warning
+                  i.icon-flag.bigger-120
+              .hidden-desktop.visible-phone
+                .inline.position-relative
+                  button.btn.btn-minier.btn-yellow.dropdown-toggle data-toggle="dropdown"
+                    i.icon-caret-down.icon-only.bigger-120
+                  ul.dropdown-menu.dropdown-icon-only.dropdown-yellow.pull-right.dropdown-caret.dropdown-close
+                    li
+                      a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+                        span.green
+                          i.icon-edit
+                    li
+                      a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+                        span.blue
+                          i.icon-flag
+                    li
+                      a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                        span.red
+                          i.icon-trash
+
+
+
+
+
+          tr
+            td.center
+              label
+                input type="checkbox"
+                span.lbl
+            td 09/20/2012
             td.hidden-480 
-              span.label.label-warning Expiring
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
+            td
+              span.label.label-success Closed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -69,13 +130,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $35
-            td.hidden-480 2,595
-            td.hidden-phone Feb 18
-            td.hidden-480
-              span.label.label-success Registered
+              span.label.label-warning Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -108,13 +177,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $60
-            td.hidden-480 4,400
-            td.hidden-phone Mar 11
-            td.hidden-480
-              span.label.label-warning Expiring
+              span.label.label-inverse.arrowed-in Not Scrubbed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -147,13 +224,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $75
-            td.hidden-480 6,500
-            td.hidden-phone Apr 03
-            td.hidden-480
-              span.label.label-inverse.arrowed-in Flagged
+              span.label.label-success Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -186,13 +271,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $55
-            td.hidden-480 4,250
-            td.hidden-phone Jan 21
-            td.hidden-480
-              span.label.label-success Registered
+              span.label.label-inverse.arrowed-in Not Scrubbed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -225,13 +318,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $40
-            td.hidden-480 3,200
-            td.hidden-phone Feb 09
-            td.hidden-480
-              span.label.label-inverse.arrowed-in Flagged
+              span.label.label-info.arrowed.arrowed-righ Leaked
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -264,13 +365,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $95
-            td.hidden-480 8,520
-            td.hidden-phone Feb 22
-            td.hidden-480
-              span.label.label-info.arrowed.arrowed-righ Sold
+              span.label.label-success Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -303,13 +412,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $45
-            td.hidden-480 4,100
-            td.hidden-phone Mar 12
-            td.hidden-480
-              span.label.label-success Registered
+              span.label.label-info.arrowed.arrowed-righ Leaked
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -342,13 +459,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $38
-            td.hidden-480 3,940
-            td.hidden-phone Feb 12
-            td.hidden-480
-              span.label.label-info.arrowed.arrowed-righ Sold
+              span.label.label-warning Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -381,13 +506,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $25
-            td.hidden-480 2,983
-            td.hidden-phone Apr 01
-            td.hidden-480
-              span.label.label-warning Expiring
+              span.label.label-inverse.arrowed-in Not Scrubbed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -420,13 +553,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $50
-            td.hidden-480 6,500
-            td.hidden-phone Feb 02
-            td.hidden-480
-              span.label.label-inverse.arrowed-in Flagged
+              span.label.label-success Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -459,13 +600,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $55
-            td.hidden-480 6,400
-            td.hidden-phone Feb 24
-            td.hidden-480
-              span.label.label-success Registered
+              span.label.label-inverse.arrowed-in Not Scrubbed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -498,13 +647,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $25
-            td.hidden-480 2,200
-            td.hidden-phone Apr 01
-            td.hidden-480
-              span.label.label-inverse.arrowed-in Flagged
+              span.label.label-info.arrowed.arrowed-righ Leaked
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -537,13 +694,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $42
-            td.hidden-480 3,900
-            td.hidden-phone Feb 01
-            td.hidden-480
-              span.label.label-info.arrowed.arrowed-righ Sold
+              span.label.label-warning Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -576,13 +741,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $35
-            td.hidden-480 3,420
-            td.hidden-phone Mar 12
-            td.hidden-480
-              span.label.label-warning Expiring
+              span.label.label-info.arrowed.arrowed-righ Leaked
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -615,13 +788,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $30
-            td.hidden-480 3,200
-            td.hidden-phone Feb 11
-            td.hidden-480
-              span.label.label-info.arrowed.arrowed-righ Sold
+              span.label.label-inverse.arrowed-in Not Scrubbed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -654,13 +835,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $35
-            td.hidden-480 3,900
-            td.hidden-phone Mar 26
-            td.hidden-480
-              span.label.label-inverse.arrowed-in Flagged
+              span.label.label-warning Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -693,13 +882,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $48
-            td.hidden-480 3,990
-            td.hidden-phone Feb 15
-            td.hidden-480
-              span.label.label-warning Expiring
+              span.label.label-info.arrowed.arrowed-righ Leaked
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -732,13 +929,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $55
-            td.hidden-480 5,600
-            td.hidden-phone Jan 29
-            td.hidden-480
-              span.label.label-info.arrowed.arrowed-righ Sold
+              span.label.label-success Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -771,13 +976,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $40
-            td.hidden-480 3,100
-            td.hidden-phone Feb 17
-            td.hidden-480
-              span.label.label-success Registered
+              span.label.label-inverse.arrowed-in Not Scrubbed
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -810,13 +1023,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $58
-            td.hidden-480 6,100
-            td.hidden-phone Feb 19
-            td.hidden-480
-              span.label.label-inverse.arrowed-in Flagged
+              span.label.label-warning Announced
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -849,13 +1070,21 @@
               label
                 input type="checkbox"
                 span.lbl
+            td 09/20/2012
+            td.hidden-480 
+              a href="#" Google
+            td.hidden-phone 
+              a href="#" Wildfire
+            td.hidden-480 1,200
+            td.hidden-480 1,300
+            td.hidden-480 100%
+            td.hidden-480 100/0
+            td.hidden-480 3.2x
+            td.hidden-480 15.7x
+            td.hidden-480 15.4x
+            td.hidden-480 22.5x
             td
-              a href="#"
-            td $50
-            td.hidden-480 4,400
-            td.hidden-phone Apr 01
-            td.hidden-480
-              span.label.label-warning Expiring
+              span.label.label-info.arrowed.arrowed-righ Leaked
             td.td-actions
               .hidden-phone.visible-desktop.btn-group
                 button.btn.btn-mini.btn-success
@@ -883,45 +1112,7 @@
                       a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
                         span.red
                           i.icon-trash
-          tr
-            td.center
-              label
-                input type="checkbox"
-                span.lbl
-            td
-              a href="#"
-            td $20
-            td.hidden-480 1,400
-            td.hidden-phone Apr 04
-            td.hidden-480
-              span.label.label-info.arrowed.arrowed-righ Sold
-            td.td-actions
-              .hidden-phone.visible-desktop.btn-group
-                button.btn.btn-mini.btn-success
-                  i.icon-ok.bigger-120
-                button.btn.btn-mini.btn-info
-                  i.icon-edit.bigger-120
-                button.btn.btn-mini.btn-danger
-                  i.icon-trash.bigger-120
-                button.btn.btn-mini.btn-warning
-                  i.icon-flag.bigger-120
-              .hidden-desktop.visible-phone
-                .inline.position-relative
-                  button.btn.btn-minier.btn-yellow.dropdown-toggle data-toggle="dropdown"
-                    i.icon-caret-down.icon-only.bigger-120
-                  ul.dropdown-menu.dropdown-icon-only.dropdown-yellow.pull-right.dropdown-caret.dropdown-close
-                    li
-                      a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
-                        span.green
-                          i.icon-edit
-                    li
-                      a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
-                        span.blue
-                          i.icon-flag
-                    li
-                      a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
-                        span.red
-                          i.icon-trash
+
 
 
 

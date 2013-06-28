@@ -29,6 +29,9 @@
             thead
               tr
                 th.center
+                  label
+                    input type="checkbox"
+                    span.lbl
                 th Date
                 th Acquirer
                 th.hidden-480 Target
@@ -82,9 +85,7 @@
                 th Date
                 th Acquirer
                 th.hidden-480 Target
-                th.hidden-phone
-                  i.icon-time.hidden-phone
-                  | Equity Value
+                th.hidden-phone Equity Value
                 th.hidden-480 Enterprise Value
                 th % Acquired 
                 th Cash/ Stock
@@ -93,7 +94,9 @@
                 th LTM EBIT
                 th P/E
                 th Unaffected Premium
-                th Status
+                th 
+                  i.icon-time.hidden-phone
+                  | Status
                 th
             tbody
               tr

@@ -14,5 +14,6 @@ window.DashboardView = window.TableView.extend(
     new SingleTransactionView
     new SingleTransactionView
     new SingleTransactionView
+    new SingleTransactionView
 
 )

@@ -13,7 +13,7 @@
           i.icon-double-angle-right
           | Created October 12, 2012
         .pull-right.inline
-          .btn.btn-small.btn-primary.a href="#" Save
+          .btn.btn-small.btn-primary.a href="#myprojects" Save
 
     /! /.page-header
     .row-fluid
@@ -24,10 +24,9 @@
             .widget-header.widget-header-blue.widget-header-flat.wi1dget-header-large
               h4.lighter Project Information
               .widget-toolbar
-                a data-action="collapse" href="#"
+                a data-action="collapse"
                   i.icon-chevron-up
-                a data-action="close" href="#"
-                  i.icon-remove
+
 
             .widget-body
               .widget-main
@@ -109,8 +108,104 @@
                   #updates.tab-pane.in.active
                     p.icon-time 
                     |  Steve added project 
+                  
+
+
+
                   #comments.tab-pane
-                    p Need to review these transactions to make sure numbers are fine
+                    .comments
+                      .itemdiv.commentdiv
+                        .user
+                          img alt="Bob Doe's Avatar" src="http://www.artandesignews.com/wp-content/uploads/2013/01/optical-illusion-profile-picture.jpg"
+                        .body
+                          .name
+                            a href="#" Bob
+                          .time
+                            i.icon-time
+                            span.green 6 min
+                          .text
+                            i.icon-quote-left
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis &hellip;
+                        .tools
+                          .inline.position-relative
+                            button.btn.btn-minier.bigger.btn-yellow.dropdown-toggle data-toggle="dropdown"
+                              i.icon-angle-down.icon-only.bigger-120
+                            ul.dropdown-menu.dropdown-icon-only.dropdown-yellow.pull-right.dropdown-caret.dropdown-close
+                              li
+                                a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Approve"
+                                  span.green
+                                    i.icon-ok
+                              li
+                                a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Reject"
+                                  span.orange
+                                    i.icon-remove
+                              li
+                                a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+                                  span.red
+                                    i.icon-trash
+                      .itemdiv.commentdiv
+                        .user
+                          img alt="Jennifer's Avatar" src="http://www.artandesignews.com/wp-content/uploads/2013/01/optical-illusion-profile-picture.jpg"
+                        .body
+                          .name
+                            a href="#" Jennifer
+                          .time
+                            i.icon-time
+                            span.blue 15 min
+                          .text
+                            i.icon-quote-left
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis &hellip;
+                        .tools
+                          a.btn.btn-minier.btn-info href="#"
+                            i.icon-only.icon-pencil
+                          a.btn.btn-minier.btn-danger href="#"
+                            i.icon-only.icon-trash
+                      .itemdiv.commentdiv
+                        .user
+                          img alt="Joe's Avatar" src="http://www.artandesignews.com/wp-content/uploads/2013/01/optical-illusion-profile-picture.jpg"
+                        .body
+                          .name
+                            a href="#" Joe
+                          .time
+                            i.icon-time
+                            span.orange 22 min
+                          .text
+                            i.icon-quote-left
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis &hellip;
+                        .tools
+                          a.btn.btn-minier.btn-info href="#"
+                            i.icon-only.icon-pencil
+                          a.btn.btn-minier.btn-danger href="#"
+                            i.icon-only.icon-trash
+                      .itemdiv.commentdiv
+                        .user
+                          img alt="Rita's Avatar" src="http://www.artandesignews.com/wp-content/uploads/2013/01/optical-illusion-profile-picture.jpg"
+                        .body
+                          .name
+                            a href="#" Rita
+                          .time
+                            i.icon-time
+                            span.red 50 min
+                          .text
+                            i.icon-quote-left
+                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque commodo massa sed ipsum porttitor facilisis &hellip;
+                        .tools
+                          a.btn.btn-minier.btn-info href="#"
+                            i.icon-only.icon-pencil
+                          a.btn.btn-minier.btn-danger href="#"
+                            i.icon-only.icon-trash
+                    .hr.hr8
+                    .center
+                      i.icon-comments-alt.icon-2x.green
+                      | \&nbsp;
+                      a href="#"
+                        | See all comments &nbsp;
+                        i.icon-arrow-right
+                    .hr.hr-double.hr8
+
+
+
+               
                   #notes.tab-pane
                     p Added back some one time expenses to EBITDA for the Microsoft transaction
 

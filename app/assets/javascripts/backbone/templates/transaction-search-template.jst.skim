@@ -14,7 +14,6 @@
               #tree1.tree
 
 
-
         .widget-box.span6
           .widget-header.header-color-blue2
             h4.lighter.smaller Choose Deal Value Range ($mm)
@@ -38,10 +37,11 @@
                 label for="form-field-select-2" Or choose a deal size from the list below:
                 select#form-field-select-2 multiple="multiple" 
                   option.value="Any"
-                  option.value="< $25 Million - $100 Million (USD)"
-                  option.value="$25 Million - $100 Million (USD)"
-                  option.value="$100 Million - $500 Million (USD)"
-                  option.value="> $500 Million (USD)"
+                  option.value="< $50 Million (USD)"
+                  option.value="$50 Million - $200 Million (USD)"
+                  option.value="$200 Million - $500 Million (USD)"
+                  option.value="$500 Million - $1,000 Million (USD)"
+                  option.value="> $1,000 Million (USD)"
 
         .widget-box.span6
           .widget-header.header-color-blue2

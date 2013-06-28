@@ -61,7 +61,7 @@ function handle_side_menu() {
 
 function enable_search_ahead() {
 	$('#nav-search-input').typeahead({
-		source: ["Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"],
+		source: ["Project Polaris","Project Mandrill","Project Perseus","IBM/Oracle","Yahoo/Yelp"],
 		updater:function (item) {
 			$('#nav-search-input').focus();
 			return item;

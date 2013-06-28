@@ -30,81 +30,9 @@
         span Transaction Search
     li.add-transaction-command
       a href="#addtransaction" 
-        i.icon-list-alt
-        span Add Transaction
-      ul.submenu
-        li
-          a href="elements.html"
-            i.icon-double-angle-right
-            | TBD
-        li
-          a href="buttons.html"
-            i.icon-double-angle-right
-            | TBD &amp; TBD
-        li
-          a href="treeview.html"
-            i.icon-double-angle-right
-            | TBD
-    li
-      a.dropdown-toggle href="#"
         i.icon-edit
-        span TBD
-        b.arrow.icon-angle-down
-      ul.submenu
-        li
-          a href="form-elements.html"
-            i.icon-double-angle-right
-            | TBD
-        li
-          a href="form-wizard.html"
-            i.icon-double-angle-right
-            | TBD &amp; TBD
-        li
-          a href="wysiwyg.html"
-            i.icon-double-angle-right
-            | TBD &amp; TBD
-    li
-      a href="calendar.html"
-        i.icon-calendar
-        span TBD
-    li
-      a href="gallery.html"
-        i.icon-picture
-        span TBD
-    li
-      a href="grid.html"
-        i.icon-th
-        span TBD
-    li.active.open
-      a.dropdown-toggle href="#"
-        i.icon-file
-        span TBD
-        b.arrow.icon-angle-down
-      ul.submenu
-        li
-          a href="pricing.html"
-            i.icon-double-angle-right
-            | TBD
-        li
-          a href="invoice.html"
-            i.icon-double-angle-right
-            | TBD
-        li
-          a href="login.html"
-            i.icon-double-angle-right
-            | TBD &amp; TBD
-        li
-          a href="error-404.html"
-            i.icon-double-angle-right
-            | TBD
-        li
-          a href="error-500.html"
-            i.icon-double-angle-right
-            | TBD
-        li.active
-          a href="blank.html"
-            i.icon-double-angle-right
-            | TBD
+        span Add Transaction
+
   /! /.nav-list
   #sidebar-collapse
     i.icon-double-angle-left
@@ -116,11 +44,7 @@
         a href="#"
         span.divider
           i.icon-angle-right
-      li
-        a href="#"
-        span.divider
-          i.icon-angle-right
-      li.active Blank Page
+      li.active Corresponding Page
     /! .breadcrumb
     #nav-search
       form.form-search

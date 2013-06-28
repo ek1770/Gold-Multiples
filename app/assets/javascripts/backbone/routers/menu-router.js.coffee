@@ -13,6 +13,8 @@ MenuRouter = Backbone.Router.extend({
     'myprojects'   : 'showMyProjects'
     'transactionsearch' : 'showTransactionSearch'
     'addtransaction' : 'showAddTransaction'
+
+    'newproject' : 'showNewProject'
   
   dashboard: ->
     new DashboardView()
@@ -29,6 +31,10 @@ MenuRouter = Backbone.Router.extend({
   showAddTransaction: -> 
     new AddTransactionView()
     console.log "Txn view called from router"
+
+  showNewProject: -> 
+    new NewProjectView()
+    console.log "New project view called from router"
 
 
 

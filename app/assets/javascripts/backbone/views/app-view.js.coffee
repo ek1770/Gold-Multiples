@@ -13,6 +13,7 @@ window.AppView = Backbone.View.extend(
 
     window.singleTransactionTemplate = JST["backbone/templates/single-transaction-template"]
     window.searchResultsTemplate = JST["backbone/templates/search-results-template"]
+    window.singleProjectTemplate = JST["backbone/templates/single-project-template"]
 
 
     window.techSector = new Transaction()

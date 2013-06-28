@@ -15,6 +15,9 @@ window.AddTransactionView = Backbone.View.extend(
       onchange: null
       thumbnail: false #| true | large
 
+    $(".date-picker").datepicker()
+
+
     #whitelist:'gif|png|jpg|jpeg'
     #blacklist:'exe|php'
     #onchange:''

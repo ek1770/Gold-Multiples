@@ -1,8 +1,12 @@
 #main-content.clearfix
   #page-content.clearfix
     .position-relative
-      .btn.btn-primary.new-project-command 
-        i.icon-plus   New Project
+      .btn.btn-primary.new-project-command
+        i.icon-plus
+          a href="#newproject" 
+          | New Project
+
+.insert-project-information
 
 #main-content.clearfix
   #page-content.clearfix
@@ -11,7 +15,7 @@
         | Project Perseus
         small
           i.icon-double-angle-right
-          a href="#" Steve Smith
+          a href="#" Steve Lett
           | , 
           a href="#" David Ford
           | ,  
@@ -22,43 +26,41 @@
         .pull-right.inline
           .btn.btn-small.btn-primary.project-detail-command.a href="#" View
 
-
+#main-content.clearfix
   #page-content.clearfix
     .page-header.position-relative
       h1
-        | Project Mandrill
+        | Project Perseus
         small
           i.icon-double-angle-right
-          a href="#" Ben Hart
+          a href="#" Steve Lett
           | , 
-          a href="#" Rob Bandy
+          a href="#" David Ford
           | ,  
-          a href="#" Chris McGuire
-          | ,  
-          a href="#" Kevin Wales
+          a href="#" Eric Stout 
           |  &amp; 
-          a href="#" Leslie Summers
+          a href="#" Brandon Riley
           |  
         .pull-right.inline
-          .btn.btn-small.btn-primary.project-detail-command.a href="#" View 
-    
+          .btn.btn-small.btn-primary.project-detail-command.a href="#" View
 
+#main-content.clearfix
   #page-content.clearfix
     .page-header.position-relative
       h1
-        | Project Spacecraft
+        | Project Perseus
         small
           i.icon-double-angle-right
-          a href="#" Rob Lett
+          a href="#" Steve Lett
           | , 
-          a href="#" John Doe
+          a href="#" David Ford
           | ,  
-          a href="#" Brandon Spiker
+          a href="#" Eric Stout 
+          |  &amp; 
+          a href="#" Brandon Riley
           |  
         .pull-right.inline
-          .btn.btn-small.btn-primary.project-detail-command.a href="#" View 
-
-
+          .btn.btn-small.btn-primary.project-detail-command.a href="#" View
 
 
 

@@ -6,7 +6,7 @@ td 09/01/2012
 td 
   a href="#" Google
 td.hidden-480 
-  a href="#" Yahoo
+  a href="#" Wildfire
 td.hidden-phone 400
 td 500
 td 100%
@@ -35,3 +35,132 @@ td
         a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
           span.red
             i.icon-trash
+
+
+
+/ td.center
+/   label
+/     input type="checkbox"
+/     span.lbl
+/ td 04/20/2012
+/ td 
+/   a href="#" Microsoft
+/ td.hidden-480 
+/   a href="#" Yammer
+/ td.hidden-phone 1,200
+/ td 1,300
+/ td 100%
+/ td 80/20
+/ td 3.4x
+/ td 18.9x
+/ td 15.6x
+/ td 28.2x
+/ td 40%
+/ td.hidden-480
+/   span.label.label-success Closed
+/ td
+/   .inline.position-relative
+/     button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+/       i.icon-cog.icon-only.bigger-110
+/     ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+/       li
+/         a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+/           span.green
+/             i.icon-edit
+/       li
+/         a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+/           span.blue
+/             i.icon-flag
+/       li
+/         a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+/           span.red
+/             i.icon-trash
+
+
+/ td.center
+/   label
+/     input type="checkbox"
+/     span.lbl
+/ td 07/12/2011
+/ td 
+/   a href="#" Facebook
+/ td.hidden-480 
+/   a href="#" Spool
+/ td.hidden-phone 700
+/ td 650
+/ td 100%
+/ td 72/28
+/ td 4.1x
+/ td 20.3x
+/ td 18.5x
+/ td 27.3x
+/ td 50%
+/ td.hidden-480
+/   span.label.label-warning Not scrubbed
+/ td
+/   .inline.position-relative
+/     button.btn.btn-minier.btn-primary.dropdown-toggle data-toggle="dropdown"
+/       i.icon-cog.icon-only.bigger-110
+/     ul.dropdown-menu.dropdown-icon-only.dropdown-light.pull-right.dropdown-caret.dropdown-close
+/       li
+/         a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+/           span.green
+/             i.icon-edit
+/       li
+/         a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+/           span.blue
+/             i.icon-flag
+/       li
+/         a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+/           span.red
+/             i.icon-trash
+
+
+
+
+
+/ td.center
+/   label
+/     input type="checkbox"
+/     span.lbl
+/ td
+/   a href="#"
+/ td 09/20/2012
+/ td.hidden-480 Google
+/ td.hidden-phone Wildfire
+/ td.hidden-480 1,200
+/ td.hidden-480 1,300
+/ td.hidden-480 100%
+/ td.hidden-480 100/0
+/ td.hidden-480 3.2x
+/ td.hidden-480 15.7x
+/ td.hidden-480 15.4x
+/ td.hidden-480 
+/   span.label.label-warning Announced
+/ td.td-actions
+/   .hidden-phone.visible-desktop.btn-group
+/     button.btn.btn-mini.btn-success
+/       i.icon-ok.bigger-120
+/     button.btn.btn-mini.btn-info
+/       i.icon-edit.bigger-120
+/     button.btn.btn-mini.btn-danger
+/       i.icon-trash.bigger-120
+/     button.btn.btn-mini.btn-warning
+/       i.icon-flag.bigger-120
+/   .hidden-desktop.visible-phone
+/     .inline.position-relative
+/       button.btn.btn-minier.btn-yellow.dropdown-toggle data-toggle="dropdown"
+/         i.icon-caret-down.icon-only.bigger-120
+/       ul.dropdown-menu.dropdown-icon-only.dropdown-yellow.pull-right.dropdown-caret.dropdown-close
+/         li
+/           a.tooltip-success data-placement="left" data-rel="tooltip" href="#" title="Edit"
+/             span.green
+/               i.icon-edit
+/         li
+/           a.tooltip-warning data-placement="left" data-rel="tooltip" href="#" title="Flag"
+/             span.blue
+/               i.icon-flag
+/         li
+/           a.tooltip-error data-placement="left" data-rel="tooltip" href="#" title="Delete"
+/             span.red
+/               i.icon-trash
