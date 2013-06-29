@@ -26,9 +26,9 @@ class TransactionsController < ApplicationController
 
   def update
     @transaction = Transaction.find(params[:id])
-    @transaction[:acquirer] = params[:transaction][:first_name]
-    @transaction[:target] = params[:transaction][:last_name]
-    @transaction[:announcement_date] = params[:transaction][:info]
+    @transaction[:acquirer] = params[:transaction][:acquirer]
+    @transaction[:target] = params[:transaction][:targer]
+    @transaction[:announcement_date] = params[:transaction][:announcement_date]
     if @transaction.save
       render :json => @transaction
     end

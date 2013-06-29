@@ -16,11 +16,13 @@ window.AppView = Backbone.View.extend(
     window.singleProjectTemplate = JST["backbone/templates/single-project-template"]
 
 
-    window.techSector = new Transaction()
+    window.techSectors = new Transactions()
 
     $(".left-menu-container").html @el
     @$el.html menuTemplate
     new DashboardView()
+
+    techSectors.fetch()
 
 
     # Delete a certain row where trash icon is clicked
