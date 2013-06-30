@@ -58,4 +58,7 @@ class Transaction < ActiveRecord::Base
     :total_debt, 
     :unaffected_premium, 
     :unaffected_share_price
+
+    belongs_to :project
+
 end

@@ -13,6 +13,9 @@ window.MyProjectsView = Backbone.View.extend(
     new SingleProjectView
     new SingleProjectView
     new SingleProjectView
+    new SingleProjectView
+    new SingleProjectView
+    new SingleProjectView
 
 
   events:

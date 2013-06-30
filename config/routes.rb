@@ -14,5 +14,10 @@ TxnMultiples::Application.routes.draw do
   # generates the routes that point to
   # the transactions controller
   resources :transactions
+
+  # generates the routes that point to
+  # the projects controller
+  resources :projects
+
 end
 

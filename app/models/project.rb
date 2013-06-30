@@ -3,4 +3,8 @@ class Project < ActiveRecord::Base
   :name, 
   :sector, 
   :sub_sector
+
+  has_many :transactions
+  has_many :users
+
 end

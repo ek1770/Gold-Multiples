@@ -17,8 +17,9 @@ MenuRouter = Backbone.Router.extend({
     'newproject' : 'showNewProject'
   
   dashboard: ->
-    new DashboardView()
-    console.log 'dashboard called from router'
+    techSectors.each (transaction) ->
+      new DashboardView(model: transaction)
+      console.log 'dashboard called from router'
 
   showMyProjects: ->
     new MyProjectsView()

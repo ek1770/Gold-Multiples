@@ -1,17 +1,15 @@
-#main-content.clearfix
-  #page-content.clearfix
-    .page-header.position-relative
-      h1
-        | Project Perseus
-        small
-          i.icon-double-angle-right
-          a href="#" fjeoifewjoifew
-          | , 
-          a href="#" David Ford
-          | ,  
-          a href="#" Eric Stout 
-          |  &amp; 
-          a href="#" Brandon Riley
-          |  
-        .pull-right.inline
-          .btn.btn-small.btn-primary.project-detail-command.a href="#" View
+.page-header.position-relative
+  h1
+    | Project Perseus
+    small
+      i.icon-double-angle-right
+      a href="#" fjeoifewjoifew
+      | , 
+      a href="#" David Ford
+      | ,  
+      a href="#" Eric Stout 
+      |  &amp; 
+      a href="#" Brandon Riley
+      |  
+    .pull-right.inline
+      .btn.btn-small.btn-primary.project-detail-command.a href="#" View

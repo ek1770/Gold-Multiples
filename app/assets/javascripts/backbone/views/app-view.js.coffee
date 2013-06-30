@@ -18,11 +18,22 @@ window.AppView = Backbone.View.extend(
 
     window.techSectors = new Transactions()
 
+    window.steveProjects = new Projects()    
+
     $(".left-menu-container").html @el
     @$el.html menuTemplate
-    new DashboardView()
+
+
+    @listenTo techSectors, "sync", (transactions) ->
+      transactions.each (transaction) ->
+        console.log "Added", transaction.get("acquirer"), transaction.get("target"), "on", transaction.get("announcement_date")
+        new DashboardView(model: transaction)
+
+    
 
     techSectors.fetch()
+
+    steveProjects.fetch()
 
 
     # Delete a certain row where trash icon is clicked

@@ -2,9 +2,9 @@ td.center
   label
     input type="checkbox"
     span.lbl
-td 09/01/2012
-td 
-  a href="#" Google
+td = @announcement_date
+td = @target
+
 td.hidden-480 
   a href="#" Wildfire
 td.hidden-phone 400

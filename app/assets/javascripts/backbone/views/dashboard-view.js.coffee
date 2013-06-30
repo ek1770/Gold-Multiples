@@ -9,11 +9,10 @@ window.DashboardView = window.TableView.extend(
 
   render: ->
     @$el.html dashboardTemplate()
-    console.log 'test123'
+    console.log 'Added transaction row'
 
-    new SingleTransactionView
-    new SingleTransactionView
-    new SingleTransactionView
-    new SingleTransactionView
+    techSectors.each (transaction) ->
+      new SingleTransactionView(model: transaction)
+
 
 )

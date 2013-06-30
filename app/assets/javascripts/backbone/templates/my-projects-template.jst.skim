@@ -6,10 +6,10 @@
           a href="#newproject" 
           | New Project
 
-.insert-project-information
+
 
 #main-content.clearfix
-  #page-content.clearfix
+  #page-content.clearfix.insert-project-information
     .page-header.position-relative
       h1
         | Project Perseus
